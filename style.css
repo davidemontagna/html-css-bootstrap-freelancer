@@ -16,6 +16,11 @@
 }
 
 .dm-img{
-    background-color: #e9e9e9;
-    height: 200px;
+    background-color: #575757;
+    height: 180px;
+}
+
+.dm-container-img{
+    height: 300px;
+    background-color: #ba4b63;
 }
