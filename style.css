@@ -75,34 +75,3 @@ body{
     width: 40px;
     padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.dm-white{
-    background-color: #fff;
-    height: 40px;
-}
-
-
-.dm-container-img{
-    height: 300px;
-    background-color: #ba4b63;
-}
-
-.grey{
-    background-color: #ccb2a3;
-}
-
-.red{
-    background-color: #bd3e25;
-}
