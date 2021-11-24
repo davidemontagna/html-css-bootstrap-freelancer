@@ -57,6 +57,25 @@ body{
     font-size: 50px;
 }
 
+.dm-border-input{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.dm-height-text-area{
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .dm-white{
     background-color: #fff;
     height: 40px;
