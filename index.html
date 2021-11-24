@@ -5,24 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Bootstrap</title>
 </head>
 <body>
     <header>
         <!--Header-->
-        
-        <div class="container-fluid">
-            <div class="row align-items-center justify-content-between dm-header">
-                
-                <div class="col-5 dm-white"></div>
+        <nav class="navbar navbar-expand-lg navbar-light dm-color-header">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fw-bold fs-3 text-white" href="#">Start bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     
-                <div class="col-2 dm-white">
-
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active text-uppercase fw-bold fs-6 text-white">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active text-uppercase fw-bold fs-6 text-white">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active text-uppercase fw-bold fs-6 text-white">Contact</a>
+                        </li>
+                    </ul>
+                    
                 </div>
-                
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
@@ -63,8 +75,8 @@
         <!--Immagini portfolio-->
         <section>
             <div class="container-fluid d-flex flex-column justify-content-center">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col">
+                <div class="row align-items-center justify-content-center row-cols-md-2 row-cols-lg-3">
+                    <div class="col-12">
                         <div class="row mx-3 my-5 dm-container-img align-items-center justify-content-center">
                             <div class="col-6 dm-img"></div>
                         </div>

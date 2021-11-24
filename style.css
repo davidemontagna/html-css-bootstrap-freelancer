@@ -1,8 +1,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 
-.dm-header{
+.dm-color-header{
     background-color: #2c3e50;
-    height: 90px;
 }
 
 .dm-content{
